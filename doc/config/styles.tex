@@ -10,3 +10,20 @@
 \titlespacing{\section}{0pt}{*0.5}{*0.5}
 \titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{0.5em}{}
 \titlespacing{\subsection}{0pt}{*0.5}{*0.5}
+
+% Configuración global para listas itemize, enumerate, etc.
+\setlist[itemize]{
+  topsep=2pt,     % espacio antes y después de la lista
+  partopsep=0pt,  % espacio extra si está después de un párrafo
+  itemsep=2pt,    % espacio entre ítems
+  %parsep=0pt,     % espacio entre párrafos dentro de un ítem
+  %leftmargin=*    % ajusta la indentación automáticamente
+}
+
+% configuracion para links
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,   % índice y referencias internas
+  citecolor=blue,   % citas IEEE
+  urlcolor=blue      % enlaces web
+}
